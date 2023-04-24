@@ -39,6 +39,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -58,7 +59,7 @@
       <option name="presentableId" value="Default" />
       <updated>1682365796514</updated>
       <workItem from="1682365797794" duration="315000" />
-      <workItem from="1682368249621" duration="1430000" />
+      <workItem from="1682368249621" duration="1880000" />
     </task>
     <task id="LOCAL-00001" summary="BMICalculator">
       <created>1682368494713</created>
@@ -81,11 +82,29 @@
       <option name="project" value="LOCAL" />
       <updated>1682368693494</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="BMICalculator">
+      <created>1682369690069</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1682369690069</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="BMICalculator" />
