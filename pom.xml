@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example</groupId>
-    <artifactId>BMICalculator</artifactId>
+    <artifactId>BMACalculator</artifactId>
     <version>1.0-SNAPSHOT</version>
     <name>BMICalculator</name>
 

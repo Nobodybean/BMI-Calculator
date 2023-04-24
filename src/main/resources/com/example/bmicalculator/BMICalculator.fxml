@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="233.0" prefWidth="320.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.tipcalculator.BMICalculatorController">
+    <children>
+        <Label fx:id="weightLabel" layoutX="33.0" layoutY="27.0" prefHeight="28.0" prefWidth="78.0" text="Weight" textFill="#002c3e">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+        </Label>
+        <TextField fx:id="weightTextField" layoutX="110.0" layoutY="28.0" prefHeight="25.0" prefWidth="184.0" promptText="Enter Weight" />
+        <Button fx:id="metricUnitsButton" layoutX="29.0" layoutY="172.0" mnemonicParsing="false" onAction="#metricButtonPressed" prefHeight="36.0" prefWidth="95.0" text="Metric" textFill="#002c3e">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+        </Button>
+        <Label fx:id="heightLabel" layoutX="33.0" layoutY="68.0" prefHeight="28.0" prefWidth="78.0" text="Height" textFill="#002c3e">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+        </Label>
+        <TextField fx:id="heightTextField" layoutX="110.0" layoutY="69.0" prefHeight="25.0" prefWidth="184.0" promptText="Enter Height" />
+        <Label fx:id="totalLabel" layoutX="33.0" layoutY="120.0" prefHeight="28.0" prefWidth="78.0" text="Result" textFill="#002c3e">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+        </Label>
+        <TextField fx:id="answerTextField" layoutX="110.0" layoutY="121.0" prefHeight="25.0" prefWidth="184.0" />
+        <Button fx:id="englishUnitsButton" layoutX="202.0" layoutY="172.0" mnemonicParsing="false" onAction="#englishButtonPressed" prefHeight="36.0" prefWidth="95.0" text="English" textFill="#002c3e">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+        </Button>
+    </children>
+</AnchorPane>
